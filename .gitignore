@@ -1,0 +1,33 @@
+# Exported notes and outputs
+Notes/
+UpNote_*/
+migration-report.*
+
+# Attachments and cache
+Files/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Private notes
+ENHANCEMENT_SUMMARY.md
+SESSION_2_COMPLETE.md
