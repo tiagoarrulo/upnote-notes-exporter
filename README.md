@@ -283,7 +283,6 @@ The tool automatically handles:
 If a note exists in multiple UpNote notebooks:
 - Default behavior: Creates a copy in each destination folder
 - This is by design to preserve all category associations
-- Future enhancement: Option to create aliases or symlinks instead
 
 ## Development
 
@@ -310,26 +309,6 @@ pytest tests/test_wikilinks.py -v
 - Modular design with focused functions
 - Backwards compatible with original version
 
-## Roadmap
-
-### Completed ✅
-- Type hints and docstrings
-- Comprehensive test suite
-- Wikilink support
-- Tag conversion
-- Progress indicators
-- Code refactoring
-
-### Planned 🚧
-- Internal note link resolution
-- Duplicate note strategies (first-only, aliases)
-- Logging improvements (verbose/quiet modes)
-- File collision handling
-- Pre-flight validation
-- Path length validation (Windows)
-
-See `ENHANCEMENT_SUMMARY.md` for detailed progress.
-
 ## License
 MIT
 
@@ -337,14 +316,6 @@ MIT
 - Export folders, output notes, and reports can contain personal data.
 - `.gitignore` excludes common export/output paths by default.
 - Use `--report-redact` if you need to share a report publicly.
-
-## Contributing
-
-Contributions welcome! Please:
-1. Run tests before submitting: `pytest tests/ -v`
-2. Maintain test coverage (aim for 70%+)
-3. Add docstrings to new functions
-4. Follow existing code style
 
 ## Credits
 
