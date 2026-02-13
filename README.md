@@ -318,9 +318,3 @@ MIT
 - Export folders, output notes, and reports can contain personal data.
 - `.gitignore` excludes common export/output paths by default.
 - Use `--report-redact` if you need to share a report publicly.
-
-## Credits
-
-- Original: [Adams141's UpNoteReorganizer](https://github.com/adams141/UpNote_Reorganizer)
-- Enhanced by: Community contributions
-- Testing & Type Safety: Claude Code enhancements
