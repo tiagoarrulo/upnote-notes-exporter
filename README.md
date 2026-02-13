@@ -2,7 +2,9 @@
 
 Enhanced migration tool to convert UpNote exports into Obsidian-compatible notes. Reorganizes exported notes into folder hierarchies, fixes attachment links, and provides Obsidian-specific features like wikilink support and tag conversion.
 
-Forked from [Adams141's UpNoteReorganizer](https://github.com/adams141/UpNote_Reorganizer) with significant enhancements for Obsidian compatibility.
+Fork lineage:
+- Forked from [simonoliver/UpNote_To_Obsidian](https://github.com/simonoliver/UpNote_To_Obsidian)
+- Which was originally forked from [adams141/UpNote_Reorganizer](https://github.com/adams141/UpNote_Reorganizer)
 
 ## Features
 
